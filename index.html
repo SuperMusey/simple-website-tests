@@ -5,11 +5,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Simple Website</title>
+    <title>BU Course Sceduler</title>
     <link rel="stylesheet" href="main.css">
 </head>
 
-<body class="light-theme">
+<!--<body class="light-theme">
     <h1>Task List</h1>
     <p id="msg"> Current Tasks:</p>
     <ul>
@@ -19,7 +19,49 @@
     </ul>
     <div>
         <button class='btn'>Dark</button>
-    </div>
+    </div>-->
+
+<body class="input_user">
+    <h1>User Input Classes</h1>
+    <form action="class_select">
+        <label for="college">College:</label>
+        <select id="college" name="college">
+            <option selected>select</option>
+            <option>BUA</option>
+            <option>CAS</option>
+            <option>CDS</option>
+            <option>CFA</option>
+            <option>CGS</option>
+            <option>COM</option>
+            <option>ENG</option>
+            <option>EOP</option>
+            <option>FRA</option>
+            <option>GMS</option>
+            <option>GRS</option>
+            <option>HUB</option>
+            <option>KHC</option>
+            <option>LAW</option>
+            <option>MED</option>
+            <option>MET</option>
+            <option>OTP</option>
+            <option>PDP</option>
+            <option>QST</option>
+            <option>SAR</option>
+            <option>SDM</option>
+            <option>SED</option>
+            <option>SHA</option>
+            <option>SPH</option>
+            <option>SSW</option>
+            <option>STH</option>
+            <option>XAS</option>
+            <option>XRG</option>
+        </select><br>
+        <label for="dept">Dept:</label><br>
+        <input type="text" id="dept" name="dept"><br>
+        <label for="course">Course:</label><br>
+        <input type="text" id="course" name="course"><br><br>
+        <input type="submit" value="Submit">
+    </form>
     <script src="app.js"></script>
     <noscript>You need to enable JavaScript</noscript>
     <!-- added here so styles are loaded first the script is run -->
